@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload File</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\shahe\ThesisCode\templates\style.css>
+</head>
+<body>
+    <header>
+        <img src="header_image.png" alt="Header Image" style="width:100%; height:auto;">
+    </header>
+    <h1>Upload your CSV file for prediction</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".csv">
+        <input type="submit" value="Upload and Predict">
+    </form>
+</body>
+</html>
